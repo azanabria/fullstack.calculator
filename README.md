@@ -146,6 +146,10 @@ Content-Type: application/json
 }
 ```
 
+### Postman Request File
+## Check for fullstack.calculator.postman_collection.json file and import it into Postman to see a full example of endpoints exposed
+
+
 ### Examples with curl
 
 ```bash
