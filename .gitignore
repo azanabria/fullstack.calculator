@@ -1,0 +1,42 @@
+# ==========================================
+# General
+# ==========================================
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# ==========================================
+# Frontend (Node / Vite / React)
+# ==========================================
+client/node_modules/
+client/dist/
+client/dist-ssr/
+client/coverage/
+client/.eslintcache
+
+# Vite environment files
+# (We keep .env.development, .env.staging, .env.production as they are templates/defaults)
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# Backend (Go)
+# ==========================================
+server/coverage.out
+server/coverage.html
+server/__debug_bin
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ==========================================
+# Docker
+# ==========================================
+.docker/

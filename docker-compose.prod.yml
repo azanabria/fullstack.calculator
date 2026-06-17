@@ -1,0 +1,15 @@
+# ============================================================
+# docker-compose.prod.yml — Production overrides
+# Usage: docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+# ============================================================
+
+services:
+  api:
+    environment:
+      - APP_ENV=production
+      - CORS_ORIGINS=${CORS_ORIGINS:-https://calculator.example.com}
+      - LOG_REQUESTS=false
+    restart: always
+
+  web:
+    restart: always
